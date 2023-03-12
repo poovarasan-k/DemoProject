@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="hrm suite" >
+	<!--<test name="login test-BothCorrect">
+		<parameter name="userName" value="Admin"></parameter>
+		<parameter name="password" value="admin123"></parameter>
+		<classes>
+			<class name="loginTestCase.BothCorrect"></class>
+		</classes>
+	</test>
+	
+	<test name="login test-CorrectPass">
+		<parameter name="userName" value="Admin1"></parameter>
+		<parameter name="password" value="admin123"></parameter>
+		<classes>
+			<class name="loginTestCase.CorrectPass"></class>
+		</classes>
+	</test>
+	
+	<test name="login test-CorrectUserName">
+		<parameter name="userName" value="Admin"></parameter>
+		<parameter name="password" value="admin123y"></parameter>
+		<classes>
+			<class name="loginTestCase.CorrectUserName"></class>
+		</classes>
+	</test>
+	
+	<test name="login test-WrongUserAndPass">
+		<parameter name="userName" value="Adminr"></parameter>
+		<parameter name="password" value="admin123r"></parameter>
+		<classes>
+			<class name="loginTestCase.WrongUserAndPass"></class>
+		</classes>
+	</test>-->
+	
+	<test name="login test-loginFunction">
+		
+		<classes>
+			<class name="loginTestCase.loginFunction"></class>
+		</classes>
+	</test>
+	<test name="login test-loginTestPOM">
+		
+		<classes>
+			<class name="LoginTestPOM.LoginTest"></class>
+		</classes>
+	</test>
+	
+</suite>

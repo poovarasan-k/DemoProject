@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-03-03T13:18:00 IST" name="Default suite" finished-at="2023-03-03T13:18:17 IST" duration-ms="16722">
+    <groups>
+    </groups>
+    <test started-at="2023-03-03T13:18:00 IST" name="Default test" finished-at="2023-03-03T13:18:17 IST" duration-ms="16722">
+      <class name="LoginTestPOM.UpdateProfileTest">
+        <test-method is-config="true" signature="beforeSuit()[pri:0, instance:LoginTestPOM.UpdateProfileTest@550ee7e5]" started-at="2023-03-03T13:18:00 IST" name="beforeSuit" finished-at="2023-03-03T13:18:02 IST" duration-ms="2448" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuit -->
+        <test-method signature="updateprofile(java.lang.String,java.lang.String)[pri:0, instance:LoginTestPOM.UpdateProfileTest@550ee7e5]" started-at="2023-03-03T13:18:03 IST" name="updateprofile" data-provider="loginData" finished-at="2023-03-03T13:18:13 IST" duration-ms="10410" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[poo@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin123e]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateprofile -->
+        <test-method signature="updateprofile(java.lang.String,java.lang.String)[pri:0, instance:LoginTestPOM.UpdateProfileTest@550ee7e5]" started-at="2023-03-03T13:18:13 IST" name="updateprofile" data-provider="loginData" finished-at="2023-03-03T13:18:17 IST" duration-ms="3580" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[poo@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin123e]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateprofile -->
+      </class> <!-- LoginTestPOM.UpdateProfileTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
